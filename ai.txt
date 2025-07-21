@@ -1,1 +1,766 @@
+CHAPTER 1 
 
+
+1.What is intelligence? Describe the foundation of AI.
+
+### **What is Intelligence?**
+
+**Intelligence** is the ability to:
+
+* Acquire and apply knowledge,
+* Learn from experience,
+* Adapt to new situations,
+* Understand complex ideas,
+* Solve problems,
+* Use reasoning and logic.
+In simple terms, intelligence is the **capacity to think, learn, and make decisions**.
+
+### **Foundation of Artificial Intelligence (AI)**
+
+The foundation of AI is based on several core areas that mimic human intelligence in machines:
+
+  1. Philosophy
+
+* Origin: Ancient Greece (Aristotle’s logic)
+* Contribution: Ideas of **reasoning**, **logic**, and **mind-body connection**.
+* Example: If A is true and A → B, then B is true (Logical reasoning).
+
+---
+
+### **2. Mathematics**
+
+* Focus: **Logic**, **probability**, **computation**
+* Contributions:
+
+  * **Propositional & Predicate Logic**
+  * **Bayesian Networks (probability)**
+  * **Algorithms & Complexity**
+* Example: Search algorithms and optimization
+
+---
+
+### **3. Computer Science**
+
+* Provides: **Programming tools, data structures, and algorithms**
+* Helps in implementing models that simulate intelligent behavior.
+* Examples: Python, Java for coding AI models
+
+---
+
+### **4. Psychology & Cognitive Science**
+
+* Study of human brain functions like **learning, memory, and problem-solving**
+* AI uses this to model **human-like learning**.
+* Example: Neural networks inspired by brain neurons
+
+---
+
+### **5. Neuroscience**
+
+* Studies biological brain structure and functioning.
+* Helps AI researchers design **artificial neural networks**.
+* Example: Dendrites and synapses modeled in ANN
+
+---
+
+### **6. Linguistics**
+
+* Understanding human **language** (syntax, semantics).
+* Leads to development of **Natural Language Processing (NLP)** in AI.
+* Example: Chatbots, translation systems
+
+---
+
+### **7. Engineering (Control Theory and Robotics)**
+
+* Deals with **sensors, actuators, control systems**
+* Helps in designing **autonomous systems** like robots.
+* Example: Self-driving cars, drones
+
+---
+
+### **Summary Table**
+
+| Area             | Contribution to AI                         |
+| ---------------- | ------------------------------------------ |
+| Philosophy       | Logic and reasoning                        |
+| Mathematics      | Algorithms, probability, logic             |
+| Computer Science | Programming and system implementation      |
+| Psychology       | Human cognition and behavior modeling      |
+| Neuroscience     | Neural networks and brain-inspired systems |
+| Linguistics      | Language understanding (NLP)               |
+| Engineering      | Physical implementation (robots, control)  |
+
+---
+
+### In Short:
+
+AI is built on the combination of **logic, learning, and decision-making**, drawing from many fields to create **machines that mimic intelligent human behavior**.
+
+
+
+2. How can you define AI from the dimension of behavioural process? When is a machine said to pass the Turing Test?**
+
+---
+
+### 🔹 **AI from Behavioural Dimension:**
+
+From the **behavioural perspective**, **Artificial Intelligence (AI)** is defined as:
+
+> "**The study of how to make machines behave as if they were intelligent.**"
+
+This means AI is focused on **what a machine does**, not how it thinks.
+If a machine can **act intelligently** like a human (even if the process is different), it is considered to have AI.
+
+Examples:
+
+* Chatbots answering like humans
+* Robots walking and responding like people
+
+---
+
+### 🔹 **Turing Test:**
+
+The **Turing Test**, proposed by **Alan Turing** in 1950, is a way to test a machine’s intelligence.
+
+> A machine **passes the Turing Test** if a **human evaluator** interacts with both a **human and a machine**, and **cannot reliably tell** which is the machine.
+
+### ✔️ **In short:**
+
+* If the machine can **fool a human into thinking it's also human**, it passes the test.
+
+---
+
+### ✅ **Conclusion:**
+
+* **Behavioural AI** focuses on **how a machine behaves** like a human.
+* A machine **passes the Turing Test** when its responses are **indistinguishable** from that of a real human.
+
+Let me know if you want a diagram or short points for revision!
+
+
+3.Here's a clear and **exam-ready answer** for:
+
+---
+
+### ✅ **Q. Describe how Turing Test is used to define AI as acting humanly.**
+
+---
+
+### 🔹 **Turing Test and Acting Humanly:**
+
+The **Turing Test**, proposed by **Alan Turing** in 1950, is a way to define **Artificial Intelligence (AI)** as the ability to **act like a human**.
+
+> It tests **whether a machine can imitate human behaviour well enough** that a human cannot tell the difference between the machine and a real person.
+
+---
+
+### 🔹 **How It Works:**
+
+* A human evaluator **chats (text only)** with two participants:
+  → One is a **human**, and the other is a **machine**.
+
+* If the evaluator **cannot reliably say** which one is the machine,
+  → then the **machine is said to have passed the Turing Test**.
+
+---
+
+### 🔹 **Turing Test as “Acting Humanly”:**
+
+* AI is said to **"act humanly"** if it can:
+
+  * Understand language
+  * Reason and answer questions
+  * Learn from interaction
+  * Respond naturally and meaningfully
+
+* The Turing Test checks **behaviour only**, not how the machine works inside.
+  → It focuses on **external human-like behaviour**.
+
+---
+
+### ✅ **Conclusion:**
+
+The **Turing Test defines AI** as successful if the machine can **act humanly** by **imitating human conversation** so well that humans **cannot tell it apart** from a real person.
+
+---
+
+Let me know if you want a diagram or example conversation for better understanding.
+
+4.### **What is the Turing Test?**
+
+The **Turing Test** was proposed by **Alan Turing** in **1950** as a way to determine whether a machine can **exhibit intelligent behavior** equivalent to, or indistinguishable from, that of a human.
+
+#### **How it works:**
+
+* A human evaluator interacts with both a **human** and a **machine** through text (like a chat).
+* If the evaluator **cannot reliably tell** which one is the machine, the machine is said to have **passed the Turing Test**.
+
+---
+
+### **Properties an Agent Should Have to Pass the Turing Test**
+
+To pass the Turing Test, an intelligent agent (AI system) must possess the following properties:
+
+---
+
+1. ### **Natural Language Processing (NLP)**
+
+   * To understand and generate human language.
+   * Enables the agent to **converse fluently** in natural language.
+
+2. ### **Knowledge Representation**
+
+   * To store facts about the world.
+   * Helps the agent answer questions and maintain context.
+
+3. ### **Automated Reasoning**
+
+   * To draw logical conclusions from known information.
+   * Allows the agent to give **intelligent, relevant answers**.
+
+4. ### **Learning Ability**
+
+   * To improve over time from experience or interaction.
+   * Makes the agent more **human-like** and adaptable.
+
+5. ### **Perceptiveness (optional)**
+
+   * Understanding emotional tone or context in conversation.
+   * Enhances the **realism and relatability** of responses.
+
+---
+
+### **In Summary:**
+
+| Property                    | Purpose                                      |
+| --------------------------- | -------------------------------------------- |
+| Natural Language Processing | Understand and communicate in human language |
+| Knowledge Representation    | Store and use facts about the world          |
+| Automated Reasoning         | Answer logically and consistently            |
+| Learning Ability            | Adapt and improve responses over time        |
+| Perceptiveness (optional)   | Understand tone and context like a human     |
+
+---
+
+### **Conclusion:**
+
+A machine passes the Turing Test if it can **convince a human** that it is also human—by having the right mix of language ability, reasoning, memory, and learning.
+
+
+5. ### **How Philosophy, Sociology, and Economics Influence the Study of Artificial Intelligence (AI)**
+
+Artificial Intelligence is not just a technical field—it is deeply influenced by **philosophy**, **sociology**, and **economics**. These disciplines help shape **how AI is designed, understood, and applied** in society.
+
+---
+
+### 🧠 **1. Philosophy**
+
+Philosophy contributes to the **foundational questions and ethical frameworks** in AI.
+
+#### Key Contributions:
+
+* **Logic and Reasoning**: Basis for rule-based systems and knowledge representation.
+* **Ethics**: Guides decisions about responsible AI (e.g., should a self-driving car prioritize passengers or pedestrians?).
+* **Mind and Consciousness**: Raises questions like: *Can machines think?* (Turing’s question).
+* **Free Will vs Determinism**: Influences AI decision-making models and autonomy.
+
+#### Example:
+
+* The **Turing Test** is a philosophical idea about machine intelligence.
+
+---
+
+### 👥 **2. Sociology**
+
+Sociology helps AI developers understand the **social impact** of AI on human communities.
+
+#### Key Contributions:
+
+* **Social Behavior Modeling**: AI can simulate or learn from human behavior (used in chatbots, recommendation systems).
+* **Bias and Fairness**: Identifies how societal biases can enter AI systems and how to correct them.
+* **Human-AI Interaction**: Studies how people accept or reject AI (trust, fear, misuse).
+
+#### Example:
+
+* AI facial recognition systems may perform worse for certain ethnic groups due to biased training data—highlighted by sociological concerns.
+
+---
+
+### 💰 **3. Economics**
+
+Economics influences **decision-making, optimization, and resource management** in AI.
+
+#### Key Contributions:
+
+* **Game Theory**: Helps in designing multi-agent systems (e.g., bidding, auctions, strategy).
+* **Cost-Benefit Analysis**: Used in AI planning and utility-based agents.
+* **Market Behavior Prediction**: AI is used in stock markets, pricing, and consumer behavior analysis.
+* **Automation and Labor**: Studies how AI affects employment and economic inequality.
+
+#### Example:
+
+* **AI in e-commerce** uses economic models to set prices, recommend products, and forecast demand.
+
+---
+
+### **Summary Table**
+
+| Discipline | Influence on AI                                | Example                            |
+| ---------- | ---------------------------------------------- | ---------------------------------- |
+| Philosophy | Logic, reasoning, ethics, consciousness        | Turing Test, ethical AI            |
+| Sociology  | Human behavior, bias, trust, impact on society | Bias in facial recognition         |
+| Economics  | Decision-making, optimization, market modeling | Game theory in multi-agent systems |
+
+---
+
+### ✅ **In Short:**
+
+* **Philosophy** shapes **what AI is** and **what it should be**.
+* **Sociology** studies **how AI affects people** and **how people affect AI**.
+* **Economics** drives **how AI makes decisions** and impacts markets and jobs.
+
+These fields make sure AI is **not just smart—but also fair, safe, and useful** for society.
+
+6.### What is the Turing Test?
+
+The **Turing Test** is a method proposed by the British mathematician and computer scientist **Alan Turing** in 1950 to determine whether a machine can exhibit intelligent behavior indistinguishable from that of a human.
+
+---
+
+### How does the Turing Test work?
+
+* A human evaluator communicates with two entities via text-based conversation: one is a **human** and the other is a **machine**.
+* The evaluator does **not know** which is which.
+* After a series of questions and answers, if the evaluator **cannot reliably tell** the machine from the human, the machine is said to have **passed the Turing Test**.
+
+---
+
+### How can the Turing Test measure the intelligence of a machine?
+
+* It tests the machine’s ability to **mimic human conversational behavior** convincingly.
+* Measures key aspects of intelligence such as:
+
+  * **Natural Language Understanding**: Ability to comprehend and respond to questions.
+  * **Reasoning**: Providing logical and relevant answers.
+  * **Knowledge**: Demonstrating awareness of facts and concepts.
+  * **Learning and Adaptation**: Handling unexpected questions or topics.
+
+If a machine can successfully imitate human responses to the extent that it fools the evaluator, it shows a level of **human-like intelligence**.
+
+---
+
+### Summary
+
+| Aspect            | Explanation                                               |
+| ----------------- | --------------------------------------------------------- |
+| What is it?       | A test to check if a machine's behavior is human-like.    |
+| How is it done?   | Text-based conversation with a human evaluator.           |
+| Measurement focus | Language, reasoning, knowledge, and adaptability.         |
+| Passing means     | Machine’s responses are indistinguishable from a human’s. |
+
+---
+
+In essence, the **Turing Test measures intelligence by evaluating if a machine can think and communicate like a human** through natural conversation.
+
+
+
+
+
+
+CHAPTER 2 
+
+1. ### What is a Rational Agent?
+
+A **rational agent** is an entity that **perceives its environment through sensors** and **acts upon that environment through actuators** to achieve the **best possible outcome** or **goal**, based on the information it has.
+
+* It **always chooses the action that maximizes its expected performance measure**, given what it knows.
+* Rationality depends on:
+
+  * The agent’s **perceptions**
+  * The **actions** it can take
+  * Its **performance measure** (goal or objective)
+  * The **environment** it operates in
+
+---
+
+### What is a Goal-Based Agent?
+
+A **goal-based agent** is a type of rational agent that acts to achieve a **specific goal**. It uses goal information to:
+
+* Decide **which actions** to take next,
+* Evaluate possible future states,
+* Choose actions that move it closer to the goal.
+
+---
+
+### How Does a Goal-Based Agent Work? — Example
+
+#### Example: Vacuum Cleaner Robot
+
+* **Environment:** A grid with clean and dirty squares.
+* **Goal:** Clean all dirty squares.
+* **Perception:** The agent senses the current square’s cleanliness.
+* **Actions:** Move (left, right, up, down), Clean.
+
+**Working:**
+
+1. The agent perceives that the current square is dirty.
+2. Since the goal is to clean, the agent decides to **clean** this square.
+3. After cleaning, it looks for the next dirty square.
+4. It plans a path to reach that square (e.g., move right or left).
+5. Repeats until all squares are clean (goal achieved).
+
+---
+
+### Why is this Rational?
+
+* The agent **selects actions** based on whether they **help achieve the goal**.
+* It does **not just react blindly** but **plans and chooses actions intelligently**.
+* It **maximizes success** by using goal information.
+
+---
+
+### Summary Table
+
+| Term             | Definition                                                | Example                             |
+| ---------------- | --------------------------------------------------------- | ----------------------------------- |
+| Rational Agent   | Acts to maximize performance measure based on perceptions | Vacuum robot cleans efficiently     |
+| Goal-Based Agent | Chooses actions to achieve a specific goal                | Plans path to clean all dirty spots |
+
+---
+
+### In short:
+
+A **rational agent** uses what it perceives and what it knows about the world to **take the best possible actions**. A **goal-based agent** specifically focuses on actions that lead it to achieve a **defined goal**, like a vacuum cleaner robot methodically cleaning all dirty places.
+
+
+2.Sure! Here’s the **question** you can practice along with the detailed **answer** I gave you:
+
+---
+
+### **Practice Question:**
+
+**Justify which type of environment resembles the following agents:**
+
+1. A mission game with fixed 6 states having two players.
+2. Tesla driverless Robovan where road conditions are changing.
+3. Game result predicting agent where the current prediction state is independent of the previous state.
+
+---
+
+### **Answer:**
+
+1. **Mission Game with fixed 6 states having two players**
+
+* **Environment type:** Discrete, Multi-agent, Fully Observable
+* **Justification:** The environment has a fixed finite number of states (6), making it discrete. Since there are two players, it is multi-agent. Usually, both players know the complete state, so the environment is fully observable.
+
+---
+
+2. **Tesla Driverless Robovan where road conditions are changing**
+
+* **Environment type:** Continuous, Dynamic, Partially Observable, Stochastic, Multi-agent
+* **Justification:** Real-world driving involves continuously changing conditions, making the environment continuous and dynamic. The vehicle has limited sensor data (partial observability), and traffic conditions add uncertainty (stochastic). Other vehicles and pedestrians make it multi-agent.
+
+---
+
+3. **Game Result Predicting Agent where current prediction state is independent of previous state**
+
+* **Environment type:** Episodic (Stateless), Stochastic, Single-agent
+* **Justification:** Since each prediction depends only on the current input and not previous states, the environment is episodic/stateless. Game results are uncertain, so the environment is stochastic. The agent acts alone to predict outcomes, making it single-agent.
+
+---
+
+If you want, I can make more such questions for exam practice!
+### What is an Agent?
+
+An **agent** is anything that can **perceive** its environment through sensors and **act** upon that environment through actuators to achieve some goal.
+
+* It takes input from the environment (perception),
+* Decides what action to take (based on its program or strategy),
+* Performs actions to affect the environment.
+
+---
+
+### How Does a Utility-Based Agent Work?
+
+A **utility-based agent** works by **assigning a numeric value (utility)** to each possible state or outcome and **choosing actions that maximize its expected utility**.
+
+* Utility measures **how desirable a particular state or outcome is** for the agent.
+* This allows the agent to **make trade-offs** between conflicting goals or uncertain situations.
+* It helps the agent **choose the best action** not just based on goals but also preferences or happiness.
+
+---
+
+### Example of a Utility-Based Agent
+
+**Example: Automated Taxi Agent**
+
+* **Perceptions:** Current location, traffic conditions, passenger requests.
+* **Actions:** Drive to a location, pick up/drop off passengers.
+* **Utility Function:** Combines factors like:
+
+  * Minimizing travel time,
+  * Maximizing passenger comfort,
+  * Minimizing fuel consumption,
+  * Maximizing fare collected.
+
+The taxi agent evaluates possible routes and actions, then picks the one with the highest utility score, balancing speed, cost, and passenger satisfaction.
+
+---
+
+### Summary Table
+
+| Term                | Explanation                                   |
+| ------------------- | --------------------------------------------- |
+| Agent               | Entity perceiving and acting in environment   |
+| Utility-Based Agent | Chooses actions to maximize a numeric utility |
+| Example             | Automated taxi balancing time, cost, comfort  |
+
+---
+
+### In short:
+
+An agent **acts to achieve goals** by perceiving and acting. A **utility agent** goes further by quantifying how good each outcome is and choosing the action that leads to the **most preferred outcome**.
+
+Sure! Here’s how you can design the **PEAS framework** (Performance measure, Environment, Actuators, Sensors) for each agent based on reasonable assumptions.
+
+---
+
+
+Using your own assumptions, design PEAS framework for following intelligent agents.
+
+a. Medicine delivery drone
+
+b. Covid medicine prescriber.
+
+### a. Medicine Delivery Drone
+
+| **PEAS Element**        | **Description**                                                                                                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Performance Measure** | - Deliver medicine on time<br>- Accuracy of delivery location<br>- Safety during flight<br>- Energy efficiency (battery use)<br>- Avoid obstacles and no accidents |
+| **Environment**         | - Urban or rural areas<br>- Weather conditions (rain, wind)<br>- Air traffic and obstacles (birds, buildings)                                                      |
+| **Actuators**           | - Propellers (to fly and maneuver)<br>- Gripper/release mechanism (to drop medicine)<br>- Navigation system (motors for steering)                                  |
+| **Sensors**             | - GPS for location<br>- Cameras and LIDAR for obstacle detection<br>- Battery level sensors<br>- Weather sensors (wind, rain)                                      |
+
+---
+
+### b. COVID Medicine Prescriber
+
+| **PEAS Element**        | **Description**                                                                                                                                  |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Performance Measure** | - Accuracy of prescription<br>- Minimize side effects<br>- Compliance with medical guidelines<br>- Patient recovery rate<br>- Fast response time |
+| **Environment**         | - Patient medical records<br>- Symptoms reported<br>- Available medicines and doses<br>- Medical regulations and guidelines                      |
+| **Actuators**           | - Prescription generation system (outputs prescriptions)<br>- Notification system to inform doctors/patients                                     |
+| **Sensors**             | - Input from patient symptoms (via app or doctor)<br>- Medical test results<br>- Drug interaction databases<br>- Patient history database        |
+
+---
+
+If you want, I can also help write these as exam-style questions and answers!
+
+
+3.### Practice Question:
+
+**Using your own assumptions, design the PEAS framework for the following intelligent agents:**
+
+a. COVID-19 prediction system
+b. Vaccine recommender system
+
+---
+
+### Answer:
+
+---
+
+### a. COVID-19 Prediction System
+
+| PEAS Element            | Description                                                                                       |
+| ----------------------- | ------------------------------------------------------------------------------------------------- |
+| **Performance Measure** | Accuracy of predictions, early detection rate, false positive/negative rate, timeliness of alerts |
+| **Environment**         | Population health data, infection rates, testing data, mobility and contact tracing data          |
+| **Actuators**           | Alert system (send warnings to health authorities/public), generate reports                       |
+| **Sensors**             | Data feeds from hospitals, testing labs, mobile apps, public health databases                     |
+
+---
+
+### b. Vaccine Recommender System
+
+| PEAS Element            | Description                                                                                     |
+| ----------------------- | ----------------------------------------------------------------------------------------------- |
+| **Performance Measure** | Accuracy of recommendations, personalized suitability, minimizing side effects, user acceptance |
+| **Environment**         | Patient medical history, vaccine availability, guidelines from health authorities               |
+| **Actuators**           | Recommendation interface (app or website), notification system                                  |
+| **Sensors**             | Patient inputs (age, health conditions, allergies), vaccine effectiveness data, medical records |
+
+---
+
+If you want, I can prepare more such questions with answers for your exam prep!
+
+5.### Practice Question:
+
+**What are the properties of an intelligent agent? How do simple reflex agents work? Give an example of a simple reflex agent.**
+
+---
+
+### Answer:
+
+---
+
+### **Properties of an Intelligent Agent**
+
+1. **Autonomy**
+
+   * Operates without human intervention and controls its actions.
+
+2. **Reactivity**
+
+   * Responds timely to changes in the environment.
+
+3. **Pro-activeness**
+
+   * Takes initiative and acts to achieve its goals.
+
+4. **Social Ability**
+
+   * Interacts and communicates with other agents or humans.
+
+5. **Adaptability**
+
+   * Learns from experiences and improves performance over time.
+
+---
+
+### **How Simple Reflex Agents Work**
+
+* Simple reflex agents select actions **only based on the current percept** (current input from the environment).
+* They use **condition-action rules**: if a condition is met, then perform a specific action.
+* They do **not consider the history of past percepts** or future consequences.
+* Works well in **fully observable, simple environments** but may fail in complex or partially observable environments.
+
+---
+
+### **Example of Simple Reflex Agent**
+
+**Example: Vacuum Cleaner Agent**
+
+* **Percept:** Current location is dirty or clean.
+* **Rule:**
+
+  * If the current location is dirty → **Suck dirt**
+  * Else → **Move to next location**
+
+This agent acts based on the immediate condition without remembering past locations.
+
+---
+
+### Summary Table
+
+| Property       | Explanation                        |
+| -------------- | ---------------------------------- |
+| Autonomy       | Operates independently             |
+| Reactivity     | Responds to environment changes    |
+| Pro-activeness | Initiates actions to achieve goals |
+| Social Ability | Communicates with others           |
+| Adaptability   | Learns and improves over time      |
+
+| Agent Type          | Decision Basis       | Example                        |
+| ------------------- | -------------------- | ------------------------------ |
+| Simple Reflex Agent | Current percept only | Vacuum cleaner (clean or move) |
+
+---
+
+Let me know if you want more questions like this!
+
+6.### Practice Question:
+
+**What do you mean by Rational Agent? What are the differences between Utility-Based Agent and Model-Based Agent?**
+
+---
+
+### Answer:
+
+---
+
+### **What is a Rational Agent?**
+
+A **rational agent** is one that **always chooses the action that maximizes its expected performance measure**, based on the information it has from its perceptions and knowledge about the environment.
+
+* It acts **to achieve the best outcome or goal**.
+* It uses its knowledge and reasoning to make the **best possible decisions** in any situation.
+
+---
+
+### **Differences between Utility-Based Agent and Model-Based Agent**
+
+| Aspect                  | Utility-Based Agent                                                              | Model-Based Agent                                                                     |
+| ----------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| **Purpose**             | Chooses actions to maximize a **utility function** that quantifies preferences.  | Maintains an **internal model** of the environment to keep track of unobserved parts. |
+| **Decision Basis**      | Selects actions based on maximizing utility value (happiness, satisfaction).     | Selects actions based on current state of the model and perceived changes.            |
+| **Handles Uncertainty** | Can handle uncertainty by choosing actions with highest expected utility.        | Uses model to predict effects of actions in partially observable environments.        |
+| **Example**             | Automated taxi balancing time, cost, comfort to maximize passenger satisfaction. | Robot vacuum that remembers which rooms are clean or dirty even if it can't see them. |
+| **Focus**               | Preferences and optimal outcomes.                                                | Environment state and history for better decision-making.                             |
+
+---
+
+### Summary:
+
+* **Rational Agent:** Acts to maximize its performance measure based on what it knows.
+* **Utility-Based Agent:** Uses a utility function to pick the best action based on preferences.
+* **Model-Based Agent:** Uses an internal model to keep track of environment state and make informed decisions.
+
+---
+
+If you want, I can prepare more such questions and answers!
+8. How agent can be configured used PEAS framework? Illustrate with example
+
+### Practice Question:
+
+**How can an agent be configured using the PEAS framework? Illustrate with an example.**
+
+---
+
+### Answer:
+
+---
+
+### **What is the PEAS Framework?**
+
+PEAS stands for **Performance measure, Environment, Actuators, and Sensors**. It is a framework used to specify the **task environment** for an intelligent agent.
+
+* **Performance measure:** Criteria to judge the success of the agent.
+* **Environment:** The surroundings or context in which the agent operates.
+* **Actuators:** The means by which the agent acts on the environment.
+* **Sensors:** The means by which the agent perceives the environment.
+
+---
+
+### **How to Configure an Agent Using PEAS**
+
+To configure an agent:
+
+1. **Define the performance measure:** What defines success for the agent?
+2. **Describe the environment:** Where does the agent operate? What are its characteristics?
+3. **List actuators:** How can the agent influence the environment?
+4. **List sensors:** How does the agent perceive the environment?
+
+---
+
+### **Example: Autonomous Taxi Agent**
+
+| PEAS Element            | Description                                                        |
+| ----------------------- | ------------------------------------------------------------------ |
+| **Performance Measure** | Safety, speed, passenger comfort, fuel efficiency, on-time arrival |
+| **Environment**         | City roads, traffic conditions, weather, passengers                |
+| **Actuators**           | Steering, acceleration, brakes, horn, display screens              |
+| **Sensors**             | GPS, speedometer, cameras, LIDAR, passenger inputs                 |
+
+---
+
+### **Summary**
+
+Using PEAS, you clearly specify the components necessary for designing an agent tailored to its task and environment. This helps in building intelligent systems effectively.
+
+---
+
+If you want, I can prepare more examples or explain other frameworks!
