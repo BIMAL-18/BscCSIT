@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+
+    <student>
+        <reg_no>101</reg_no>
+        <name>Ram Sharma</name>
+        <roll_no>1</roll_no>
+        <project_name>Library Management System</project_name>
+    </student>
+
+    <student>
+        <reg_no>102</reg_no>
+        <name>Sita Rai</name>
+        <roll_no>2</roll_no>
+        <project_name>Online Voting System</project_name>
+    </student>
+
+    <student>
+        <reg_no>103</reg_no>
+        <name>Hari Karki</name>
+        <roll_no>3</roll_no>
+        <project_name>Expense Tracker App</project_name>
+    </student>
+
+    <student>
+        <reg_no>104</reg_no>
+        <name>Gita Thapa</name>
+        <roll_no>4</roll_no>
+        <project_name>Hotel Booking System</project_name>
+    </student>
+
+    <student>
+        <reg_no>105</reg_no>
+        <name>Nabin Shrestha</name>
+        <roll_no>5</roll_no>
+        <project_name>Online Quiz System</project_name>
+    </student>
+
+</students>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Using XPath</title>
+</head>
+<body>
+
+<h2>Student Names using XPath</h2>
+<div id="output"></div>
+
+<script>
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "student.xml", false);
+xhr.send();
+
+var xmlDoc = xhr.responseXML;
+
+// XPath expression
+var result = xmlDoc.evaluate(
+    "/students/student/name",
+    xmlDoc,
+    null,
+    XPathResult.ANY_TYPE,
+    null
+);
+
+var node = result.iterateNext();
+var output = "";
+
+while (node) {
+    output += node.textContent + "<br>";
+    node = result.iterateNext();
+}
+
+document.getElementById("output").innerHTML = output;
+</script>
+
+</body>
+</html>

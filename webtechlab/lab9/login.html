@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login with Remember Me</title>
+</head>
+
+<body>
+
+<h2>Login Page</h2>
+
+<form action="login.php" method="post">
+
+    Username:<br>
+    <input type="text" name="username" id="username"><br><br>
+
+    Password:<br>
+    <input type="password" name="password"><br><br>
+
+    <input type="checkbox" name="remember" id="remember">
+    <label for="remember">Remember Me</label><br><br>
+
+    <input type="submit" value="Login">
+
+</form>
+
+<script>
+    // Load saved username from cookie
+    window.onload = function () {
+        let name = getCookie("username");
+        if (name != "") {
+            document.getElementById("username").value = name;
+            document.getElementById("remember").checked = true;
+        }
+    };
+
+    // Get cookie function
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i].trim();
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+</script>
+
+</body>
+</html>
